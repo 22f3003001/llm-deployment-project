@@ -1,0 +1,13 @@
+{
+  "name": "llm-deployment-api",
+  "version": "1.0.0",
+  "description": "LLM-based code deployment system",
+  "main": "api/build.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "axios": "^1.7.7"
+  }
+}
